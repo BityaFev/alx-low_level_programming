@@ -3,7 +3,7 @@
 /**
  * times_table - prints the 9 times table
  */
-void times_table(void)
+void print_times_table(void)
 {
 	int num, mult, prod;
 
@@ -22,8 +22,8 @@ void times_table(void)
 				_putchar(' ');
 			else
 				_putchar((prod / 10) + '0');
-			_putchar((prod % 10) ='0');
+			_putchar((prod % 10) + '0');
 		}
-		_putchat('\n');
+		_putchar('\n');
 	}
 }
