@@ -6,6 +6,7 @@
  * @a: array
  * @n: number of values
  */
+void print_array(int *a, int n)
 {
 	int t;
 
