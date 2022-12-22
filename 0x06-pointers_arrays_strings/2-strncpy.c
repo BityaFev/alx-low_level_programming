@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncpy - copies string with n
- * @dest: copy to
- * @src: from
- * @n: number
+ * _strncpy - copies a sring
+ * @dest: copy
+ * @src: copy
+ * @n: number of char
  * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -14,7 +14,7 @@ char *_strncpy(char *dest, char *src, int n)
 	j = 0;
 	while (j < n && src[j] != '\0')
 	{
-		dst[j] = src[j];
+		dest[j] = src[j];
 		j++;
 	}
 	while (j < n)
