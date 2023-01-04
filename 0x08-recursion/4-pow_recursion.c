@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _poe_recursion - returns the valu of x to the power of y
+ * _pow_recursion - returns the valu of x to the power of y
  * @x: number
  * @y: power
  * Return: x power of y -1 if x < 0
