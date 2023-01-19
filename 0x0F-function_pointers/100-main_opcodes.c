@@ -5,7 +5,7 @@
  * @argc: no of args
  * Return: Always 0
  */
-int main(int rg, char *argv[])
+int main(int argc, char *argv[])
 {
 	int bytes, i;
 	char *arr;
