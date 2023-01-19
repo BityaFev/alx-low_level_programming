@@ -10,7 +10,7 @@ int main(int rg, char *argv[])
 	int bytes, i;
 	char *arr;
 
-	if (arg != 2)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
